@@ -1,0 +1,45 @@
+<html>
+
+<head>
+  <title>Basic App</title>
+  <link href="static/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    nav.mb-4 {
+      margin-bottom: 0px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- nav bar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Basic App</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- todo list -->
+  <div class="container">
+    <div style="margin-top: 30px;">
+      <div class="mb-3">
+        <label for="txtName" class="form-label">Please enter your name</label>
+        <input type="text" class="form-control" id="txtName" placeholder="">
+      </div>
+    </div>
+    <div class="text-end">
+      <button type="button" id="btnGreeting" class="btn btn-primary">Greeting</button>
+    </div>
+    <div id="result"></div>
+  </div>
+
+  <script src="static/js/bootstrap.bundle.min.js"></script>
+  <script src="static/js/jquery-3.6.3.min.js"></script>
+  <script src="static/js/base.js"></script>
+</body>
+
+</html>
